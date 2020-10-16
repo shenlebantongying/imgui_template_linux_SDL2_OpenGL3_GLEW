@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../cmake_imgui_sdl_opengl3_glew_template/.idea/uDataShore.iml" filepath="$PROJECT_DIR$/../cmake_imgui_sdl_opengl3_glew_template/.idea/uDataShore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uDataShore.iml" filepath="$PROJECT_DIR$/.idea/uDataShore.iml" />
     </modules>
   </component>
 </project>
