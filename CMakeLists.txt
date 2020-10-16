@@ -18,3 +18,5 @@ add_executable(uDataShore main.cpp ${sources}
         ${IMGUI_DIR}/imgui_impl_opengl3.cpp)
 
 target_link_libraries(uDataShore ${SDL2_LIBRARIES}  OpenGL::GL GLEW::GLEW)
+
+FILE(COPY Roboto-Medium.ttf DESTINATION "${CMAKE_BINARY_DIR}")
