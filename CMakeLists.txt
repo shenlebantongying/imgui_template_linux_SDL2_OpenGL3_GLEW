@@ -13,10 +13,17 @@ include_directories(${SDL2_INCLUDE_DIRS} ${IMGUI_DIR} ${OPENGL_INCLUDE_DIRS} ${G
 
 file(GLOB sources ./imgui/*.cpp)
 
-add_executable(uDataShore main.cpp ${sources}
+add_executable(demo demo.cpp ${sources}
         ${IMGUI_DIR}/imgui_impl_sdl.cpp
         ${IMGUI_DIR}/imgui_impl_opengl3.cpp)
 
-target_link_libraries(uDataShore ${SDL2_LIBRARIES}  OpenGL::GL glad ${CMAKE_DL_LIBS})
+target_link_libraries(demo ${SDL2_LIBRARIES}  OpenGL::GL glad ${CMAKE_DL_LIBS})
+
+
+add_executable(main main.cpp ${sources}
+        ${IMGUI_DIR}/imgui_impl_sdl.cpp
+        ${IMGUI_DIR}/imgui_impl_opengl3.cpp)
+
+target_link_libraries(main ${SDL2_LIBRARIES}  OpenGL::GL glad ${CMAKE_DL_LIBS})
 
 FILE(COPY Roboto-Medium.ttf DESTINATION "${CMAKE_BINARY_DIR}")
