@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/imgui_template_linux_SDL2_OpenGL3_GLEW.iml" filepath="$PROJECT_DIR$/.idea/imgui_template_linux_SDL2_OpenGL3_GLEW.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/uDataShore.iml" filepath="$PROJECT_DIR$/.idea/uDataShore.iml" />
     </modules>
   </component>
